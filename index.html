@@ -1,10 +1,30 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js" ></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/66eea3422f.js"></script>
+    <style type="text/css">
+      span {
+        font-family: arial;
+      }
+    </style>
   </head>
   <body>
-    <canvas id='myCanvas' width="1080" height="720" style="border: 2px solid black;"></canvas>
+    <div style="position: relative;">
+      <canvas id='imageCanvas' width="1080" height="720" style="border: 2px solid black; cursor: crosshair; position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+      <canvas id="selectionCanvas" width="1080" height="720" style="border: 2px solid black; cursor: crosshair; position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+    </div>
+    <div id="output" style="float: right; margin-right: 5em">
+      <span><strong>Min tSNE1: </strong></span><span id="minTsne1"></span><br><br>
+      <span><strong>Max tSNE1: </strong></span><span id="maxTsne1"></span><br><br>
+      <span><strong>Min tSNE2: </strong></span><span id="minTsne2"></span><br><br>
+      <span><strong>Max tSNE2: </strong></span><span id="maxTsne2"></span><br><br>
+      <br><br>
+      <i id="zoom-in" class="fas fa-3x fa-search-plus"></i>
+      <br><br>
+      <i id="zoom-out" class="fas fa-3x fa-search-minus"></i>
+    </div>
   </body>
   <script src="index.js"></script>
 </html>
