@@ -1,0 +1,571 @@
+[{
+  "filename": "100231190.dcm_100x100_fit_90.png",
+  "tsne1": 90,
+  "tsne2": 71
+},
+{
+  "filename": "100231235.dcm_100x100_fit_90.png",
+  "tsne1": 35,
+  "tsne2": 75
+},
+{
+  "filename": "100462649.dcm_100x100_fit_90.png",
+  "tsne1": 49,
+  "tsne2": 24
+},
+{
+  "filename": "100462651.dcm_100x100_fit_90.png",
+  "tsne1": 51,
+  "tsne2": 99
+},
+{
+  "filename": "101771225.dcm_100x100_fit_90.png",
+  "tsne1": 25,
+  "tsne2": 34
+},
+{
+  "filename": "101771233.dcm_100x100_fit_90.png",
+  "tsne1": 33,
+  "tsne2": 19
+},
+{
+  "filename": "101771252.dcm_100x100_fit_90.png",
+  "tsne1": 52,
+  "tsne2": 65
+},
+{
+  "filename": "101771255.dcm_100x100_fit_90.png",
+  "tsne1": 55,
+  "tsne2": 88
+},
+{
+  "filename": "101771256.dcm_100x100_fit_90.png",
+  "tsne1": 56,
+  "tsne2": 13
+},
+{
+  "filename": "101772984.dcm_100x100_fit_90.png",
+  "tsne1": 84,
+  "tsne2": 73
+},
+{
+  "filename": "101870461.dcm_100x100_fit_90.png",
+  "tsne1": 61,
+  "tsne2": 74
+},
+{
+  "filename": "104869772.dcm_100x100_fit_90.png",
+  "tsne1": 72,
+  "tsne2": 95
+},
+{
+  "filename": "104869814.dcm_100x100_fit_90.png",
+  "tsne1": 14,
+  "tsne2": 79
+},
+{
+  "filename": "104869824.dcm_100x100_fit_90.png",
+  "tsne1": 24,
+  "tsne2": 92
+},
+{
+  "filename": "104869826.dcm_100x100_fit_90.png",
+  "tsne1": 26,
+  "tsne2": 89
+},
+{
+  "filename": "108727058.dcm_100x100_fit_90.png",
+  "tsne1": 58,
+  "tsne2": 24
+},
+{
+  "filename": "108727078.dcm_100x100_fit_90.png",
+  "tsne1": 78,
+  "tsne2": 78
+},
+{
+  "filename": "108727086.dcm_100x100_fit_90.png",
+  "tsne1": 86,
+  "tsne2": 32
+},
+{
+  "filename": "108727091.dcm_100x100_fit_90.png",
+  "tsne1": 91,
+  "tsne2": 15
+},
+{
+  "filename": "108727100.dcm_100x100_fit_90.png",
+  "tsne1": 1,
+  "tsne2": 3
+},
+{
+  "filename": "109613939.dcm_100x100_fit_90.png",
+  "tsne1": 39,
+  "tsne2": 36
+},
+{
+  "filename": "109613960.dcm_100x100_fit_90.png",
+  "tsne1": 60,
+  "tsne2": 70
+},
+{
+  "filename": "109614609.dcm_100x100_fit_90.png",
+  "tsne1": 9,
+  "tsne2": 41
+},
+{
+  "filename": "109614632.dcm_100x100_fit_90.png",
+  "tsne1": 32,
+  "tsne2": 21
+},
+{
+  "filename": "110085875.dcm_100x100_fit_90.png",
+  "tsne1": 75,
+  "tsne2": 91
+},
+{
+  "filename": "114427584.dcm_100x100_fit_90.png",
+  "tsne1": 84,
+  "tsne2": 42
+},
+{
+  "filename": "118641999.dcm_100x100_fit_90.png",
+  "tsne1": 99,
+  "tsne2": 6
+},
+{
+  "filename": "119032862.dcm_100x100_fit_90.png",
+  "tsne1": 62,
+  "tsne2": 62
+},
+{
+  "filename": "119032870.dcm_100x100_fit_90.png",
+  "tsne1": 70,
+  "tsne2": 91
+},
+{
+  "filename": "119034154.dcm_100x100_fit_90.png",
+  "tsne1": 54,
+  "tsne2": 22
+},
+{
+  "filename": "119034155.dcm_100x100_fit_90.png",
+  "tsne1": 55,
+  "tsne2": 83
+},
+{
+  "filename": "119034167.dcm_100x100_fit_90.png",
+  "tsne1": 67,
+  "tsne2": 47
+},
+{
+  "filename": "119038819.dcm_100x100_fit_90.png",
+  "tsne1": 19,
+  "tsne2": 15
+},
+{
+  "filename": "119038832.dcm_100x100_fit_90.png",
+  "tsne1": 32,
+  "tsne2": 12
+},
+{
+  "filename": "119038840.dcm_100x100_fit_90.png",
+  "tsne1": 40,
+  "tsne2": 11
+},
+{
+  "filename": "119038849.dcm_100x100_fit_90.png",
+  "tsne1": 49,
+  "tsne2": 37
+},
+{
+  "filename": "119103007.dcm_100x100_fit_90.png",
+  "tsne1": 7,
+  "tsne2": 82
+},
+{
+  "filename": "119103014.dcm_100x100_fit_90.png",
+  "tsne1": 14,
+  "tsne2": 95
+},
+{
+  "filename": "11953368.dcm_100x100_fit_90.png",
+  "tsne1": 68,
+  "tsne2": 66
+},
+{
+  "filename": "11953503.dcm_100x100_fit_90.png",
+  "tsne1": 3,
+  "tsne2": 11
+},
+{
+  "filename": "11953559.dcm_100x100_fit_90.png",
+  "tsne1": 59,
+  "tsne2": 12
+},
+{
+  "filename": "11953578.dcm_100x100_fit_90.png",
+  "tsne1": 78,
+  "tsne2": 68
+},
+{
+  "filename": "119848725.dcm_100x100_fit_90.png",
+  "tsne1": 25,
+  "tsne2": 70
+},
+{
+  "filename": "119848876.dcm_100x100_fit_90.png",
+  "tsne1": 76,
+  "tsne2": 66
+},
+{
+  "filename": "119848907.dcm_100x100_fit_90.png",
+  "tsne1": 7,
+  "tsne2": 39
+},
+{
+  "filename": "120491640.dcm_100x100_fit_90.png",
+  "tsne1": 40,
+  "tsne2": 47
+},
+{
+  "filename": "121679793.dcm_100x100_fit_90.png",
+  "tsne1": 93,
+  "tsne2": 4
+},
+{
+  "filename": "125599302.dcm_100x100_fit_90.png",
+  "tsne1": 2,
+  "tsne2": 25
+},
+{
+  "filename": "125599305.dcm_100x100_fit_90.png",
+  "tsne1": 5,
+  "tsne2": 93
+},
+{
+  "filename": "125599314.dcm_100x100_fit_90.png",
+  "tsne1": 14,
+  "tsne2": 33
+},
+{
+  "filename": "125599319.dcm_100x100_fit_90.png",
+  "tsne1": 19,
+  "tsne2": 0
+},
+{
+  "filename": "125599323.dcm_100x100_fit_90.png",
+  "tsne1": 23,
+  "tsne2": 76
+},
+{
+  "filename": "125599385.dcm_100x100_fit_90.png",
+  "tsne1": 85,
+  "tsne2": 1
+},
+{
+  "filename": "125599392.dcm_100x100_fit_90.png",
+  "tsne1": 92,
+  "tsne2": 22
+},
+{
+  "filename": "125599394.dcm_100x100_fit_90.png",
+  "tsne1": 94,
+  "tsne2": 4
+},
+{
+  "filename": "125599420.dcm_100x100_fit_90.png",
+  "tsne1": 20,
+  "tsne2": 28
+},
+{
+  "filename": "125599422.dcm_100x100_fit_90.png",
+  "tsne1": 22,
+  "tsne2": 30
+},
+{
+  "filename": "125599432.dcm_100x100_fit_90.png",
+  "tsne1": 32,
+  "tsne2": 18
+},
+{
+  "filename": "125599564.dcm_100x100_fit_90.png",
+  "tsne1": 64,
+  "tsne2": 90
+},
+{
+  "filename": "125599568.dcm_100x100_fit_90.png",
+  "tsne1": 68,
+  "tsne2": 69
+},
+{
+  "filename": "125599569.dcm_100x100_fit_90.png",
+  "tsne1": 69,
+  "tsne2": 77
+},
+{
+  "filename": "125599620.dcm_100x100_fit_90.png",
+  "tsne1": 20,
+  "tsne2": 14
+},
+{
+  "filename": "125599623.dcm_100x100_fit_90.png",
+  "tsne1": 23,
+  "tsne2": 3
+},
+{
+  "filename": "125599624.dcm_100x100_fit_90.png",
+  "tsne1": 24,
+  "tsne2": 13
+},
+{
+  "filename": "125599629.dcm_100x100_fit_90.png",
+  "tsne1": 29,
+  "tsne2": 34
+},
+{
+  "filename": "127759012.dcm_100x100_fit_90.png",
+  "tsne1": 12,
+  "tsne2": 27
+},
+{
+  "filename": "130318533.dcm_100x100_fit_90.png",
+  "tsne1": 33,
+  "tsne2": 7
+},
+{
+  "filename": "13136556.dcm_100x100_fit_90.png",
+  "tsne1": 56,
+  "tsne2": 27
+},
+{
+  "filename": "13136558.dcm_100x100_fit_90.png",
+  "tsne1": 58,
+  "tsne2": 46
+},
+{
+  "filename": "13136559.dcm_100x100_fit_90.png",
+  "tsne1": 59,
+  "tsne2": 37
+},
+{
+  "filename": "133078001.dcm_100x100_fit_90.png",
+  "tsne1": 1,
+  "tsne2": 92
+},
+{
+  "filename": "30840831.dcm_100x100_fit_90.png",
+  "tsne1": 31,
+  "tsne2": 59
+},
+{
+  "filename": "30840850.dcm_100x100_fit_90.png",
+  "tsne1": 50,
+  "tsne2": 35
+},
+{
+  "filename": "31963265.dcm_100x100_fit_90.png",
+  "tsne1": 65,
+  "tsne2": 84
+},
+{
+  "filename": "31972284.dcm_100x100_fit_90.png",
+  "tsne1": 84,
+  "tsne2": 90
+},
+{
+  "filename": "31972303.dcm_100x100_fit_90.png",
+  "tsne1": 3,
+  "tsne2": 7
+},
+{
+  "filename": "35195102.dcm_100x100_fit_90.png",
+  "tsne1": 2,
+  "tsne2": 44
+},
+{
+  "filename": "35198259.dcm_100x100_fit_90.png",
+  "tsne1": 59,
+  "tsne2": 61
+},
+{
+  "filename": "36883623.dcm_100x100_fit_90.png",
+  "tsne1": 23,
+  "tsne2": 75
+},
+{
+  "filename": "36883649.dcm_100x100_fit_90.png",
+  "tsne1": 49,
+  "tsne2": 2
+},
+{
+  "filename": "36908682.dcm_100x100_fit_90.png",
+  "tsne1": 82,
+  "tsne2": 47
+},
+{
+  "filename": "39963784.dcm_100x100_fit_90.png",
+  "tsne1": 84,
+  "tsne2": 52
+},
+{
+  "filename": "39964012.dcm_100x100_fit_90.png",
+  "tsne1": 12,
+  "tsne2": 81
+},
+{
+  "filename": "40129547.dcm_100x100_fit_90.png",
+  "tsne1": 47,
+  "tsne2": 5
+},
+{
+  "filename": "40130920.dcm_100x100_fit_90.png",
+  "tsne1": 20,
+  "tsne2": 89
+},
+{
+  "filename": "40132714.dcm_100x100_fit_90.png",
+  "tsne1": 14,
+  "tsne2": 64
+},
+{
+  "filename": "40132879.dcm_100x100_fit_90.png",
+  "tsne1": 79,
+  "tsne2": 87
+},
+{
+  "filename": "41553477.dcm_100x100_fit_90.png",
+  "tsne1": 77,
+  "tsne2": 84
+},
+{
+  "filename": "41553641.dcm_100x100_fit_90.png",
+  "tsne1": 41,
+  "tsne2": 10
+},
+{
+  "filename": "41553859.dcm_100x100_fit_90.png",
+  "tsne1": 59,
+  "tsne2": 69
+},
+{
+  "filename": "41553881.dcm_100x100_fit_90.png",
+  "tsne1": 81,
+  "tsne2": 1
+},
+{
+  "filename": "41553960.dcm_100x100_fit_90.png",
+  "tsne1": 60,
+  "tsne2": 89
+},
+{
+  "filename": "41739224.dcm_100x100_fit_90.png",
+  "tsne1": 24,
+  "tsne2": 35
+},
+{
+  "filename": "41739233.dcm_100x100_fit_90.png",
+  "tsne1": 33,
+  "tsne2": 52
+},
+{
+  "filename": "43270083.dcm_100x100_fit_90.png",
+  "tsne1": 83,
+  "tsne2": 86
+},
+{
+  "filename": "43270338.dcm_100x100_fit_90.png",
+  "tsne1": 38,
+  "tsne2": 14
+},
+{
+  "filename": "54222514.dcm_100x100_fit_90.png",
+  "tsne1": 14,
+  "tsne2": 61
+},
+{
+  "filename": "54702698.dcm_100x100_fit_90.png",
+  "tsne1": 98,
+  "tsne2": 2
+},
+{
+  "filename": "54748616.dcm_100x100_fit_90.png",
+  "tsne1": 16,
+  "tsne2": 53
+},
+{
+  "filename": "54754585.dcm_100x100_fit_90.png",
+  "tsne1": 85,
+  "tsne2": 26
+},
+{
+  "filename": "54804937.dcm_100x100_fit_90.png",
+  "tsne1": 37,
+  "tsne2": 9
+},
+{
+  "filename": "54934238.dcm_100x100_fit_90.png",
+  "tsne1": 38,
+  "tsne2": 59
+},
+{
+  "filename": "54934241.dcm_100x100_fit_90.png",
+  "tsne1": 41,
+  "tsne2": 53
+},
+{
+  "filename": "56217563.dcm_100x100_fit_90.png",
+  "tsne1": 63,
+  "tsne2": 44
+},
+{
+  "filename": "59668919.dcm_100x100_fit_90.png",
+  "tsne1": 19,
+  "tsne2": 32
+},
+{
+  "filename": "60414446.dcm_100x100_fit_90.png",
+  "tsne1": 46,
+  "tsne2": 64
+},
+{
+  "filename": "62338897.dcm_100x100_fit_90.png",
+  "tsne1": 97,
+  "tsne2": 61
+},
+{
+  "filename": "66138395.dcm_100x100_fit_90.png",
+  "tsne1": 95,
+  "tsne2": 72
+},
+{
+  "filename": "66138782.dcm_100x100_fit_90.png",
+  "tsne1": 82,
+  "tsne2": 42
+},
+{
+  "filename": "67504477.dcm_100x100_fit_90.png",
+  "tsne1": 77,
+  "tsne2": 21
+},
+{
+  "filename": "67504478.dcm_100x100_fit_90.png",
+  "tsne1": 78,
+  "tsne2": 75
+},
+{
+  "filename": "78556647.dcm_100x100_fit_90.png",
+  "tsne1": 47,
+  "tsne2": 9
+},
+{
+  "filename": "95335765.dcm_100x100_fit_90.png",
+  "tsne1": 65,
+  "tsne2": 36
+},
+{
+  "filename": "95336210.dcm_100x100_fit_90.png",
+  "tsne1": 10,
+  "tsne2": 23
+}
+]
