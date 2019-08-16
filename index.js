@@ -38,21 +38,37 @@ function updateCoords(coord1, coord2){
 }
 
 // Draw an image to Canvas
-function createImage(filename, xPos, yPos, imgSize, ctx){
+function createImage(filename, xPos, yPos, imgSize, ctx, isSelectedImage=false){
   var image = new Image();
   image.src = filename;
   image.onload = function(){
     ctx.drawImage(image, xPos, yPos, imgSize, imgSize)
+    if (isSelectedImage){
+      ctx.strokeStyle = '#fff'
+    } else {
+      ctx.strokeStyle = '#00008b'
+    }
+    ctx.lineWidth = 4;
+    ctx.strokeRect(xPos, yPos, imgSize, imgSize);
   }
 }
 
-function displayImages(data, maxXPos, maxYPos, imgSize){
+function displayImages(data, maxXPos, maxYPos, imgSize, selectedImage){
   for (i = 0; i < data.length; i++){
     xPos = data[i]['tsne1'] / maxXPos * canvasWidth
     yPos = data[i]['tsne2'] / maxYPos * canvasHeight
     filename = 'http://0.0.0.0:9001/sample_image_set/'+data[i]['filename'];
-    createImage(filename, xPos, yPos, imgSize, ctx)
+    if (data[i]['filename'] == selectedImage){
+      console.log('Liam was here')
+    }
+    else {
+      createImage(filename, xPos, yPos, imgSize, ctx)
+    }
   }
+
+  // call createImage and pass paramter isSpecial = True
+  filename = 'http://0.0.0.0:9001/sample_image_set/'+selectedImage;
+  createImage(filename, xPos, yPos, imgSize, ctx, isSelectedImage=true)
 }
 
 function selectionBox(){
@@ -60,7 +76,7 @@ function selectionBox(){
   createjs.Ticker.on("tick", tick);
 
   var selection = new createjs.Shape(),
-	    g = selection.graphics.setStrokeStyle(1).beginStroke("#000").beginFill("rgba(0,0,0,0.15)"),
+      g = selection.graphics.setStrokeStyle(1).beginStroke("#000").beginFill("rgba(0,0,0,0.15)"),
       sd = g.setStrokeDash([10,5], 0).command,
       r = g.drawRect(0,0,100,100).command,
       moveListener;
@@ -70,13 +86,13 @@ function selectionBox(){
 
   function dragStart(event) {
     stage.addChild(selection).set({x:event.stageX, y:event.stageY});
-   	r.w = 0; r.h = 0;
+    r.w = 0; r.h = 0;
     moveListener = stage.on("stagemousemove", drag);
   };
 
   function drag(event) {
- 	  r.w = event.stageX - selection.x;
- 	  r.h = event.stageY - selection.y;
+    r.w = event.stageX - selection.x;
+    r.h = event.stageY - selection.y;
   }
 
   function dragEnd(event) {
@@ -93,7 +109,12 @@ $.getJSON('http://0.0.0.0:9001/sample_image_set/files.json', function(data){
   const maxXPos = data.reduce((max, b) => Math.max(max, b.tsne1), data[0].tsne1);
   const maxYPos = data.reduce((max, b) => Math.max(max, b.tsne2), data[0].tsne2);
 
-  displayImages(data, maxXPos, maxYPos, imgSize)
+  min = 0
+  max = data.length
+  randIdx = Math.floor(Math.random() * (+max - +min)) + +min
+  selectedImage = data[randIdx]['filename']
+
+  displayImages(data, maxXPos, maxYPos, imgSize, selectedImage)
 
   // Convert cursor position to tsne coordinates
   function convertCanvasXCoordToTsne(x){
@@ -129,14 +150,14 @@ $.getJSON('http://0.0.0.0:9001/sample_image_set/files.json', function(data){
   $('#zoom-in').click(function(){
     imgSize += 10
     ctx.clearRect(0,0,canvasWidth,canvasHeight)
-    displayImages(data, maxXPos, maxYPos, imgSize)
+    displayImages(data, maxXPos, maxYPos, imgSize, selectedImage)
   })
 
   $('#zoom-out').click(function(){
     if (imgSize > 10){
       imgSize -= 10
       ctx.clearRect(0,0,canvasWidth,canvasHeight)
-      displayImages(data, maxXPos, maxYPos, imgSize)
+      displayImages(data, maxXPos, maxYPos, imgSize, selectedImage)
     }
   })
 });
