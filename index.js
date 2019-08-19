@@ -76,7 +76,7 @@ function selectionBox(){
   createjs.Ticker.on("tick", tick);
 
   var selection = new createjs.Shape(),
-      g = selection.graphics.setStrokeStyle(1).beginStroke("#000").beginFill("rgba(0,0,0,0.15)"),
+      g = selection.graphics.setStrokeStyle(1).beginStroke("#000"),
       sd = g.setStrokeDash([10,5], 0).command,
       r = g.drawRect(0,0,100,100).command,
       moveListener;
