@@ -11,6 +11,8 @@ var coord1 = coord2 = null;
 
 imgSize = 20
 
+var imageCache = {}
+
 // Get position of cursor in canvas
 function getCursorPosition(canvas, event) {
   const rect = canvas.getBoundingClientRect()
@@ -37,19 +39,29 @@ function updateCoords(coord1, coord2){
   $('#maxTsne2').text(maxTsne2)
 }
 
+function drawImageOnCavas(image, xPos, yPos, imgSize, isSelectedImage){
+  ctx.drawImage(image, xPos, yPos, imgSize, imgSize)
+  if (isSelectedImage){
+    ctx.strokeStyle = '#fff'
+  } else {
+    ctx.strokeStyle = '#00008b'
+  }
+  ctx.lineWidth = 4;
+  ctx.strokeRect(xPos, yPos, imgSize, imgSize);
+}
+
 // Draw an image to Canvas
 function createImage(filename, xPos, yPos, imgSize, ctx, isSelectedImage=false){
-  var image = new Image();
-  image.src = filename;
-  image.onload = function(){
-    ctx.drawImage(image, xPos, yPos, imgSize, imgSize)
-    if (isSelectedImage){
-      ctx.strokeStyle = '#fff'
-    } else {
-      ctx.strokeStyle = '#00008b'
+  if (!(filename in imageCache)){
+    var image = new Image();
+    image.src = filename;
+    image.onload = function(){
+      imageCache[filename] = image
+      drawImageOnCavas(image, xPos, yPos, imgSize)
     }
-    ctx.lineWidth = 4;
-    ctx.strokeRect(xPos, yPos, imgSize, imgSize);
+  } else {
+    var image = imageCache[filename]
+    drawImageOnCavas(image, xPos, yPos, imgSize, isSelectedImage)
   }
 }
 
